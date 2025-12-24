@@ -6,3 +6,13 @@ plotly==5.17.0
 openpyxl==3.1.0
 altair==5.0.0
 setuptools>=65.0
+# Advanced Features
+reportlab>=3.6.0  # PDF generation
+xlsxwriter>=3.1.0  # Excel export
+pdfplumber>=0.10.0  # PDF reading
+python-pptx>=0.6.21  # PowerPoint generation
+# Caching & Performance
+functools32>=3.2.3 ; python_version < '3'  # LRU cache
+# Documentation & Logging
+python-dotenv>=1.0.0  # Environment config
+loguru>=0.7.0  # Advanced logging
