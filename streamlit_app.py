@@ -299,7 +299,7 @@ if st.session_state.calculation_done:
         st.dataframe(
             df[display_cols].style.format('{:.2f}'),
             use_container_width=True,
-            height=700
+            
         )
     
     st.divider()
